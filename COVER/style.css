@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Archivo+Black&family=Belanosima:wght@400;600&family=Hind+Siliguri:wght@600&family=Mulish:wght@200&family=Poppins:wght@200;400;800;900&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+  width: 21cm;
+  height: 29.7cm;
+  padding: 2cm;
+  margin: 1cm auto;
+  border: 1px #D3D3D3 solid;
+  background-image: url(./images/mT-01.png);
+  background-size: contain;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+    padding-top: 32%;
+    font-size: 40px;
+    background: linear-gradient(90deg,rgb(76, 108, 213), rgb(13, 51, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+    word-spacing: 6px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding-bottom: 1px;
+    margin-bottom: 2px;
+}
+.deptm{
+  background: linear-gradient(90deg,rgb(67, 102, 215), rgb(13, 51, 140) );
+  height: 50px;
+  width: 570px;
+  font-weight: lighter;
+  border-radius: 9px;
+  margin: auto;
+  text-align: center;
+}
+.dept{
+  font-size:20px;
+  color: white;
+  padding-top: 9px;
+  margin: 2px;
+}
+.crsname {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  margin: 10px;
+  padding-left: 90px;
+  font-weight:400;
+}
+.crscode{
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  margin: 8px;
+  padding-left: 180px;
+  font-weight:400;
+}
+.workno{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  color: rgb(40, 40, 198);
+  margin: 8px;
+  padding-left: 250px;
+  font-weight:400;
+}
+.worknm{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  color: rgb(40, 40, 198);
+  margin: 8px;
+  text-align: center;
+  font-weight:400;
+}
+.topics{
+  height: 100px;
+  width: 630px;
+  border: 2px solid rgb(39, 39, 181);
+  margin: auto;
+  border-radius: 7px;
+}
+
+.sbby{
+  display: inline-block;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  margin: 18px;
+  padding-left: 100px;
+  padding-top: 10px;
+  font-weight:800;
+}
+.persninfo{
+  margin: 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  display: flex;
+}
+.line{
+  width: 165px;
+  transform: rotate(90deg);
+  border:1px solid rgb(20, 60, 160);
+  margin-top: -115px;
+}
+.colmn{
+  flex: 50%;
+  padding-left: 20px;
+}
+.footer{
+  display: flex;
+  font-size: 25px;
+  color: rgb(51, 51, 177);
+  margin-top: 160px;
+}
+.co1, .co2{
+  flex: 50%;
+  text-transform: uppercase;
+}
+.footer .co2{
+  justify-content: flex-end;
+  display: flex;
+}
